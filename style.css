@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 1080px;
+  margin: 30px auto;
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+/* #247f16
+#bce946 */
+
+table,
+td {
+  border: 3px solid black;
+}
+.stu-info {
+  background-color: #247f16;
+  padding: 8px;
+}
+.stu-detail {
+  background-color: #bce946;
+}
+.info-btn {
+  background-color: red;
+  border-radius: 10px;
+  width: 75px;
+}
+.space {
+  margin-bottom: 50px;
+}
+.login-section {
+  width: 500px;
+  background-color: #ddb888;
+  text-align: center;
+  display: grid;
+  justify-content: center;
+  row-gap: 10px;
+  padding: 15px;
+}
+#welcome {
+  font-family: "Lobster", cursive;
+  font-size: 34px;
+}
+#admin-login {
+  text-decoration: underline red;
+  text-transform: uppercase;
+  font-size: 32px;
+  font-family: monospace;
+  margin: 25px 0;
+}
+form {
+  width: 400px;
+  background-color: #f1e5d5;
+  display: grid;
+  place-items: center;
+  row-gap: 10px;
+  padding-bottom: 30px;
+}
+.user-pass {
+  text-align: left;
+  margin-bottom: 30px;
+}
+.input {
+  border-radius: 10px;
+  height: 26px;
+}
+.btn {
+  border-radius: 10px;
+  height: 40px;
+  width: 140px;
+  background-color: #dee2e6;
+}
+footer {
+  margin-top: 50px;
+  font-family: "Segoe UI";
+  font-weight: bold;
+}
